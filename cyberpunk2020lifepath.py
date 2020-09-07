@@ -127,7 +127,7 @@ def parents(roll6):
                 "Something has happened to your parents: Your parent(s) died in warfare"
             )
         elif roll7 == 2:
-            return "Something has happened to your parents: Your parent(s)  died in an accident"
+            return "Something has happened to your parents: Your parent(s) died in an accident"
         elif roll7 == 3:
             return (
                 "Something has happened to your parents: Your parent(s) were murdered"
@@ -157,7 +157,6 @@ def parents(roll6):
 
 def family_status(roll8):
     if roll8 < 7:
-
         def family_tragedy(roll9):
             if roll9 == 1:
                 return "Family status is in danger, and you risk losing everything (if you haven't already: Family lost everything through betrayal"
@@ -329,19 +328,15 @@ def feeling_people(roll18):
     elif roll18 == 4:
         return "How do you feel about most people: I hate almost everyone"
     elif roll18 == 5:
-        return "How do you feel about most people: People are tools. Use them for your own goals \
-        and discard them"
+        return "How do you feel about most people: People are tools. Use them for your own goals and discard them"
     elif roll18 == 6:
         return "How do you feel about most people: Every person is valuable individual"
     elif roll18 == 7:
-        return "How do you feel about most people: People are obstacles to be destroyed if they \
-        cross me"
+        return "How do you feel about most people: People are obstacles to be destroyed if they cross me"
     elif roll18 == 8:
-        return "How do you feel about most people: People are untrustworthy. Don't depend on \
-        anyone"
+        return "How do you feel about most people: People are untrustworthy. Don't depend on anyone"
     elif roll18 == 9:
-        return "How do you feel about most people: Wipe'em all out and give the place to the \
-        cockroaches"
+        return "How do you feel about most people: Wipe'em all out and give the place to the cockroaches"
     elif roll18 == 10:
         return "How do you feel about most people: People are wonderful"
 
