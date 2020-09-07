@@ -322,7 +322,7 @@ def do_you_value(roll17):
 
 
 def feeling_people(roll18):
-    if roll18 == 1 or 2:
+    if (roll18 == 1) or (roll18 == 2):
         return "How do you feel about most people: Neutral"
     elif roll18 == 3:
         return "How do you feel about most people: I like almost everyone"
