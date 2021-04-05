@@ -391,7 +391,7 @@ def happenings(age):
             elif roll22 == 2:
                 return "Big Problems, Big Wins; You scored big and had a Finnancial Windfall: " + str(roll(10) * 100) + " Eurodollars"
             elif roll22 == 3:
-                return "Big Problems, Big Wins; You scored big and got a big score on job or deal of" + str(roll(10) * 100) + " Eurodollars"
+                return "Big Problems, Big Wins; You scored big and got a big score on job or deal of " + str(roll(10) * 100) + " Eurodollars"
             elif roll22 == 4:
                 return "Big Problems, Big Wins; You scored big and found a Sensei(teacher): Begin at +2 or add +1 to a Martial Arts Skill of your choice."
             elif roll22 == 5:
@@ -742,7 +742,7 @@ def happenings(age):
 
     t = ""
     for i in range(age - 16):
-        t = t + str(life_events(roll(10))) + " | "
+        t = t + str(life_events(roll(10))) + "\n"
     return t
 
 
